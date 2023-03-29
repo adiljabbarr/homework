@@ -1,0 +1,131 @@
+using System;
+using System.ComponentModel;
+using System.Numerics;
+using System.Threading.Channels;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+
+        //------------------------------------------------------------------------------------------------------
+
+
+
+        //1ci sual :C# dilində int, double, string, bool və char daxil olmaqla
+        //müxtəlif dəyişənlərini yaradan proqram yazın.
+        // ozu deyisen yaradan program yaza bilmedim ona gore de manuel olaraq elnen yazdim hamsini 
+        //int i = 10;
+        //float f = 15.5f;
+        //double d = 5.99D;
+        //char c = 'a';
+        //string s = "string";
+        //bool myBool = true;
+        //Console.WriteLine(myBool);
+        //Console.WriteLine(s);
+        //Console.WriteLine(c);
+        //Console.WriteLine(d);
+        //Console.WriteLine(f);
+        //Console.WriteLine(i);
+
+        //------------------------------------------------------------------------------------------------------
+
+        //2ci sual : “int” dəyişən tipini float tipinə çevirən proqram yaradın.
+        //int myInteger = 15;
+        //float f = (float)myInteger;
+        //Console.WriteLine(f);
+
+        //------------------------------------------------------------------------------------------------------
+
+        //3cu sual : İstifadəçidən ədəd qəbul edən proqram yazın və sonra rəqəmin müsbət
+        //və ya mənfi və ya sıfır olduğunu müəyyən etmək üçün if-else şərtindən
+        //istifadə edin.
+
+        //Console.WriteLine("Please write your number");
+        //int number = int.Parse(Console.ReadLine());
+        //if (number > 0)
+        //{
+        //    Console.WriteLine("edediniz musbet ededir");
+        //}
+        //else if (number < 0)
+        //{
+        //    Console.WriteLine("edediniz menfi ededir");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("sifir reqemi daxil etdiniz");
+        //}
+
+        //------------------------------------------------------------------------------------------------------
+
+        //4cu sual: İstifadəçinin yaşını qəbul edən proqram yaradın və sonra onun səs
+        //vermək üçün kifayət qədər yaşlı olub-olmadığını müəyyən etmək üçün
+        //if-else şərtindən istifadə edin.
+
+        //Console.WriteLine("please write your age");
+        //int age = int.Parse(Console.ReadLine());
+        //if (age> 55)
+        //{
+        //    Console.WriteLine("you are old");
+        //    Console.Beep(5000, 5000);
+        //}
+        //else if (age<18)
+        //{
+        //    Console.WriteLine("You are too old to urinate");
+        //    Console.Beep(5000, 5000);
+        //}
+        //else
+        //{
+        //    Console.WriteLine("you can go to work");
+        //}
+
+
+
+
+        //------------------------------------------------------------------------------------------------------
+
+        //5cu sual: 1-dən 100-a qədər cüt rəqəmləri konsolda çap etmək üçün for-loop
+        //istifadə edən proqram yaradın.
+
+        //int number = 101;
+        //for (int i = 2; i < number; i=i+2)
+        //{
+        //    Console.WriteLine(i);
+        //}
+
+
+        //------------------------------------------------------------------------------------------------------
+
+        //6ci sual: *İstifadəçidən ədəd qəbul edən proqram yazın və sonra 10-a qədər bu
+        //rəqəmin vurma cədvəlini çap etmək üçün for-loop istifadə edin.
+
+        //int number = int.Parse(Console.ReadLine());
+        //Console.WriteLine("daxil etdiyiniz eded: " + number);
+        //Console.WriteLine("daxil etdiyiniz " + number + "ededinin 10 qeder ki ededlere vurulmasi:");
+        //for (int i = 1; i < 10; i++)
+        //{
+        //    number = number * i;
+        //    Console.WriteLine(number);
+        //}
+
+        //------------------------------------------------------------------------------------------------------
+
+        //7ci sual:İstifadəçidən parol qəbul edən proqram yazın və sonra düzgün parol
+        //daxil edilənə qədər parol istəməyə davam etmək üçün while-loop
+        //istifadə edin.
+
+        //Console.WriteLine("please write your password");
+        //string password = Console.ReadLine();
+        //Console.WriteLine("re-enter your password");
+        //string rePassword = Console.ReadLine();
+        //while (password != rePassword)
+        //{
+        //    Console.WriteLine("Please write your password correctly");
+        //    rePassword = Console.ReadLine();
+        //}
+        //Console.WriteLine("logging into your account");
+
+        //------------------------------------------------------------------------------------------------------
+
+    }
+}
